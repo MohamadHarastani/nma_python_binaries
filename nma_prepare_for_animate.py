@@ -1,4 +1,5 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
+
 import pickle
 import numpy
 import re
@@ -13,7 +14,7 @@ if __name__ == '__main__':
         #print line_number, fields[0], fields[1]
         data.append( fields )
     vec.close()
-    f = open( "vec_ani.pkl", "w" )
+    f = open( "vec_ani.pkl", "wb" )
     pickle.dump(data, f)
     f.close()
 
