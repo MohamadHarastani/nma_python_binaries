@@ -34,6 +34,7 @@ def compute_animation(pdb_name,pickle_name,start_mode,end_mode,amplitude,outname
         s2=s2-1
 	#assert s1 / 3.0 == s1 // 3.0, "animate> Error: pickle length not a multiple of 3"
 	#assert s2 / 3.0 == s2 // 3.0, "animate> Error: pickle width not a multiple of 3"
+	# Todo: change the prints to be compatible with python3
 	print 'animate> Mode pickle file %s read, containing %i modes for %i atoms' % (pickle_name,s1,s2/3)
 
         bfact = m_inout_import_bfact(pdb_name)
