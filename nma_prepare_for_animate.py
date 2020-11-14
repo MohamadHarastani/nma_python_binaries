@@ -3,6 +3,8 @@ import pickle
 import numpy
 import re
 
+# Todo: give some discription
+
 if __name__ == '__main__':
     vec = open( "vec_ani.txt", "r" )
     data= []
